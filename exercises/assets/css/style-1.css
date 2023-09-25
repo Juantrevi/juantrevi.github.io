@@ -14,11 +14,18 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
+body{
+    background-color: #d3d3d3;
+
+}
 h1 {
+    font-size: 78px;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: -2px;
-    margin-bottom: 32px;}
+    margin-bottom: 32px;
+    color: #ba9595;
+}
 
 h2 {
     font-size: 36px;

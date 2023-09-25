@@ -17,16 +17,18 @@ input, button, textarea, select { font: inherit }
 /* ================= ENDS ================ */
 
 body {
+    background-color: #fef2ee;
     text-align: center;
     font-family: sans-serif;
 }
 
 h1 {
     font-size: 78px;
-    font-weight: normal;
+    font-weight: 550;
     letter-spacing: -2px;
     margin-bottom: 12px;
     line-height: 1.2;
+    color: #1e266d;
 }
 
 h2 {
@@ -34,6 +36,7 @@ h2 {
     letter-spacing: 6px;
     margin-bottom: 48px;
     line-height: 1.2;
+
 }
 
 h3 {
@@ -44,7 +47,14 @@ h3 {
     text-transform: uppercase;
 }
 
-p {
+a{
+    font-weight: bold;
     font-size: 20px;
+    font-style: italic;
+    text-decoration: dotted;
+}
+
+p {
+    font-size: 22px;
     margin-bottom: 16px;
 }
