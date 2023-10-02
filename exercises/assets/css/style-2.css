@@ -1,38 +1,45 @@
 /*  ============= WEB BROWSER RESETS ============ */
-/* Desktops/Laptops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
-
-/* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
-body{line-height: 1.5;
-     min-height: 100vh; 
-     background-color: purple;
-    }
+body { line-height: 1.5; min-height: 100vh }
 @media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
-
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 4% 20% }
+ }
+ /* Mobiles */
+ @media (max-width: 767px) {
+    body { padding: 8% 5% }
+ }
+/* ================= PADDING AROUND WEB PAGE PAGE BODY CONTENT ================ */
 body{
-    background-color: #d3d3d3;
-
+    padding: 4% 20%;
+    background-color: purple;
 }
+/* ================= ENDS ================ */
+
+
 h1 {
-    font-size: 78px;
     text-align: center;
-    font-weight: bold;
-    letter-spacing: -2px;
-    margin-bottom: 32px;
-    color: white;}
+    color: white;
+    font-size: 84px;
+    margin-bottom: 64px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 4px;
     color: white;
+    font-size: 28px;
+    margin-bottom: 4px;
+    margin-top: 54px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -45,8 +52,9 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
     color: white;
+    font-size: 20px;
 }
 
 a {color: white;
-    
+
 }
