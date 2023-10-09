@@ -300,6 +300,10 @@ a{
     background-color: var(--purple-300);
 }
 
+.section-link{
+    padding: 4% 6%;
+}
+
 
 
 
