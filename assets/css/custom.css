@@ -1,0 +1,100 @@
+
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #16161a }
+
+header.theme-dark   { background-color: #16161a }
+
+header.theme-dark  h1 { color: #7f5af0; }
+
+section.theme-dark   { background-color: #16161a }
+
+footer.theme-dark   { background-color: #0f172a }
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+header .col-text h2, .col-1 > h3 { 
+    line-height: 1.8;
+    color: #fffffe;
+  
+}
+
+
+.theme-dark .container-btn a.btn:nth-child(1):link,
+.theme-dark .container-btn a.btn:nth-child(1):visited { color: #fffffe }
+
+.theme-dark .container-btn a.btn:nth-child(1):focus,
+.theme-dark .container-btn a.btn:nth-child(1):hover,
+.theme-dark .container-btn a.btn:nth-child(1):active { color: #fffffe }
+
+.theme-dark .container-btn a.btn:nth-child(1):link,
+.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: #7f5af0 }
+
+.theme-dark .container-btn a.btn:nth-child(1):focus,
+.theme-dark .container-btn a.btn:nth-child(1):hover,
+.theme-dark .container-btn a.btn:nth-child(1):active { background-color: #2cb67d }
+
+.theme-dark .container-btn a.btn:nth-child(1):link,
+.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: #7f5af0 }
+
+.theme-dark .container-btn a.btn:nth-child(1):focus,
+.theme-dark .container-btn a.btn:nth-child(1):hover,
+.theme-dark .container-btn a.btn:nth-child(1):active { border-color: #2cb67d }
+
+.theme-dark .container-btn a.btn:nth-child(2):link,
+.theme-dark .container-btn a.btn:nth-child(2):visited { color: #fffffe }
+
+.theme-dark .container-btn a.btn:nth-child(2):focus,
+.theme-dark .container-btn a.btn:nth-child(2):hover,
+.theme-dark .container-btn a.btn:nth-child(2):active { color: #fffffe }
+
+.theme-dark .container-btn a.btn:nth-child(2):focus,
+.theme-dark .container-btn a.btn:nth-child(2):hover,
+.theme-dark .container-btn a.btn:nth-child(2):active { background-color: #2cb67d }
+
+.theme-dark .container-btn a.btn:nth-child(2):link,
+.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--red-200) }
+
+.theme-dark .container-btn a.btn:nth-child(2):focus,
+.theme-dark .container-btn a.btn:nth-child(2):hover,
+.theme-dark .container-btn a.btn:nth-child(2):active { border-color: #2cb67d }
+
+
+
+
+
+
+
+
+
+.section-selector-1 .flex-cols-3 .col-3 a.col-3-h3:link,
+.section-selector-1 .flex-cols-3 .col-3 a.col-3-h3:visited { color: #fffffe }
+.section-selector-1 .flex-cols-3 .col-3 a.col-3-h3:focus,
+.section-selector-1 .flex-cols-3 .col-3 a.col-3-h3:hover,
+.section-selector-1 .flex-cols-3 .col-3 a.col-3-h3:active { color: #fffffe }
+.section-selector-1 div[class^='col-'] a[class^='col-']:link, .section-selector-1 div[class^='col-'] a[class^='col-']:visited { text-decoration-color: #fffffe }
+.section-selector-1 div[class^='col-'] a[class^='col-']:focus, .section-selector-1 div[class^='col-'] a[class^='col-']:hover, .section-selector-1 div[class^='col-'] a[class^='col-']:active { text-decoration-color: #fffffe }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: #fffffe }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: #fffffe }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: #7f5af0 }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: #2cb67d }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: #7f5af0 }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: #2cb67d }
+
+
+
